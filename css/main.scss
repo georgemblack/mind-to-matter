@@ -15,6 +15,15 @@
     padding: 0;
 }
 
+.body {
+    background-color: $background-color;
+}
+
+.main {
+    max-width: $body-max-width;
+    margin: 2em auto 2em auto;
+}
+
 h1, h2, h3 {
     font-family: $header-font;
     color: $body-text-color;
