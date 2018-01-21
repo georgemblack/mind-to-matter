@@ -1,0 +1,9 @@
+.home-tagline {
+    font-size: 3em;
+    font-weight: $font-weight-bold;
+    line-height: 100%;
+
+    span {
+        color: $theme-primary-color;
+    }
+}
