@@ -1,0 +1,22 @@
+.header-outer-wrapper {
+    height: 8em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-inner-wrapper {
+    width: 100%;
+    max-width: $body-max-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    width: 6.5em;
+
+    img { display: block; }
+}
+
