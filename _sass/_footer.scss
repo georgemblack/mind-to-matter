@@ -1,0 +1,9 @@
+.footer {
+    max-width: $body-max-width;
+    margin: 3em auto 0 auto;
+    
+    p {
+        font-size: 0.8em;
+        color: $faded-text-color;
+    }
+}
