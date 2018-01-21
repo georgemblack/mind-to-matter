@@ -9,7 +9,8 @@
 @import "header";
 @import "navigation";
 @import "footer";
-@import "pages";
+@import "sections";
+@import "images";
 
 @import "pages/home";
 
@@ -23,8 +24,11 @@
 }
 
 .main {
-    max-width: $body-max-width;
     margin: 4em auto 4em auto;
+}
+
+h1, h2, h3, p {
+    margin-top: 1em;
 }
 
 h1, h2, h3 {
@@ -32,8 +36,13 @@ h1, h2, h3 {
     color: $body-text-color;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
 p {
-    font-size: 1em;
+    max-width: $reading-max-width;
+    font-size: 1.15em;
     font-family: $body-font;
     color: $body-text-color;
 }

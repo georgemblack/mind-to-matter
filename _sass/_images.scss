@@ -1,0 +1,12 @@
+.image-full-width,
+.image-body-width {
+    margin: 2em auto 0 auto;
+    img { 
+        width: 100%;
+        display: block;
+    }
+}
+
+.image-body-width {
+    max-width: $body-max-width;
+}
