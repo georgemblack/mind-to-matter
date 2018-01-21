@@ -1,0 +1,16 @@
+pages:
+- title: Home
+  url: /
+  new_window: false
+- title: Example
+  url: #
+  new_window: false
+- title: Example
+  url: #
+  new_window: false
+- title: Example
+  url: #
+  new_window: false
+- title: Example
+  url: #
+  new_window: false
