@@ -2,15 +2,12 @@ pages:
 - title: Home
   url: /
   new_window: false
-- title: Example
-  url: #
+- title: About
+  url: /about
   new_window: false
-- title: Example
-  url: #
+- title: Product
+  url: /product
   new_window: false
-- title: Example
-  url: #
-  new_window: false
-- title: Example
-  url: #
+- title: Contact
+  url: /contact
   new_window: false
