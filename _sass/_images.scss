@@ -1,12 +1,35 @@
+$image-border-radius: 0.5em;
+
+// all images
+.image-body-width,
 .image-full-width,
-.image-body-width {
-    margin: 2em auto 0 auto;
-    img { 
+.image-right {
+    img {
         width: 100%;
         display: block;
     }
 }
 
+// middle images
+.image-full-width,
+.image-body-width {
+    margin: 2em auto 0 auto;
+}
+
+// side images
+.image-right,
+.image-left {
+    margin: 1em 0 1em 1em;
+}
+
+// individual settings
 .image-body-width {
     max-width: $body-max-width;
+    img { border-radius: $image-border-radius; }
+}
+
+.image-right {
+    float: right;
+    max-width: 28em;
+    img { border-radius: $image-border-radius; }
 }
