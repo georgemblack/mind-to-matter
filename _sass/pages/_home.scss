@@ -1,4 +1,5 @@
 .home-tagline {
+    padding: 1em 0 1.5em 0;
     font-size: 3em;
     font-weight: $font-weight-bold;
     line-height: 100%;
@@ -6,4 +7,14 @@
     span {
         color: $theme-primary-color;
     }
+}
+
+.home-background-graphic {
+    z-index: -100;
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 64em;
+    opacity: 0.05;
 }
