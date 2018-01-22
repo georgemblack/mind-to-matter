@@ -1,0 +1,10 @@
+.tagline-large {
+    padding: 1em 0 1.5em 0;
+    font-size: 3em;
+    font-weight: $font-weight-bold;
+    line-height: 100%;
+
+    span {
+        color: $theme-primary-color;
+    }
+}
