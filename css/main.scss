@@ -9,7 +9,6 @@
 @import "header";
 @import "navigation";
 @import "footer";
-@import "sections";
 @import "images";
 
 @import "pages/home";
@@ -57,3 +56,13 @@ a:hover {
     color: $link-hover-color;
     transition: 0.1s linear;
 }
+
+.section {
+    max-width: $body-max-width;
+    width: 100%;
+    margin: 2em auto 0 auto;
+
+    h1:first-child { margin-top: 0; }
+}
+
+.section:first-child { margin-top: 0; }
