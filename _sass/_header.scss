@@ -1,10 +1,11 @@
 .header-outer-wrapper {
-    height: 8em;
+    height: 8.5em;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid $theme-primary-color;
+    background-color: $header-background-color;
 }
 
 .header-inner-wrapper {
