@@ -1,13 +1,4 @@
 pages:
-- title: Home
+- title: Downloads
   url: /
-  new_window: false
-- title: About
-  url: /about
-  new_window: false
-- title: Product
-  url: /product
-  new_window: false
-- title: Contact
-  url: /contact
   new_window: false
