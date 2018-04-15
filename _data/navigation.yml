@@ -5,8 +5,8 @@ pages:
 # - title: About
 #  url: /about
 #  new_window: false
-#- title: Product
-#  url: /product
+- title: Progress
+  url: /progress
 #  new_window: false
 #- title: Contact
 #  url: /contact
