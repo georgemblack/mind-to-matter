@@ -2,7 +2,7 @@ $image-border-radius: 0.5em;
 
 // all images
 .image-body-width,
-.image-full-width,
+.image-left,
 .image-right {
     img {
         width: 100%;
@@ -11,15 +11,17 @@ $image-border-radius: 0.5em;
 }
 
 // middle images
-.image-full-width,
 .image-body-width {
     margin: 2em auto 0 auto;
 }
 
 // side images
-.image-right,
-.image-left {
+.image-right {
     margin: 1em 0 1em 1em;
+}
+
+.image-left {
+    margin: 1em 1em 1em 0;
 }
 
 // individual settings
@@ -30,6 +32,12 @@ $image-border-radius: 0.5em;
 
 .image-right {
     float: right;
+    max-width: 28em;
+    img { border-radius: $image-border-radius; }
+}
+
+.image-left {
+    float: left;
     max-width: 28em;
     img { border-radius: $image-border-radius; }
 }
