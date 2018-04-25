@@ -1,0 +1,22 @@
+.team-members {
+    margin: 2em 0 0 0;
+}
+
+.team-member-outer {
+    display: inline-block;
+    width: 12em;
+    margin: 0 0.5em 1em 0.5em;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em;
+    box-shadow: 6px 8px 20px 0px rgba(0,0,0,0.1);
+}
+
+.team-member-inner {
+    padding: 0.85em 0.5em 0.85em 0.5em;
+
+    img {
+        max-width: 8em;
+        border-radius: 100%;
+    }
+}

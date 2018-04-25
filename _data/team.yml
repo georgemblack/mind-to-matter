@@ -1,0 +1,25 @@
+members:
+- name: Evan Wolfenden
+  image: evan.png
+  title: CEO
+- name: Billy Boutelle
+  image: billy.png
+  title: Business
+- name: Ryan Knuese
+  image: ryan.png
+  title: Software
+- name: Kai Pederson
+  image: kai.png
+  title: Electrical
+- name: Ben Farley
+  image: ben.png
+  title: Mechanical
+- name: Kevin Abou-Zeid
+  image: kevin.png
+  title: Mechanical
+- name: Seth Rueter
+  image: seth.png
+  title: Mechanical
+- name: Clayton Fellman
+  image: clayton.png
+  title: Mechanical

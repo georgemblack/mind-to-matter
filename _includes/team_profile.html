@@ -1,0 +1,11 @@
+<div class="team-members">
+    {% for member in site.data.team.members %}
+    <div class="team-member-outer">
+        <div class="team-member-inner">
+            <img src="{{site.url}}/assets/profiles/{{member.image}}" alt="{{member.name}}">
+            <h3>{{member.name}}</h3>
+            <p>{{member.title}}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
