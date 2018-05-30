@@ -3,15 +3,11 @@
 ---
 
 // imports
-@import "structure";
 @import "colors";
 @import "fonts";
 @import "text";
 
 @import "header";
-@import "navigation";
-@import "footer";
-@import "images";
 @import "team";
 
 // page structure
@@ -24,8 +20,8 @@
     background-color: $background-color;
 }
 
-.main {
-    margin: 2em auto 0 auto;
+.reading-width {
+    max-width: 576px;
 }
 
 // primary elements
@@ -48,7 +44,6 @@ h2 {
 }
 
 p {
-    max-width: $reading-max-width;
     font-size: 1em;
     font-family: $body-font;
 }
@@ -64,15 +59,6 @@ a:hover {
     transition: 0.1s linear;
 }
 
-// page sections
-.section {
-    max-width: $body-max-width;
-    width: 100%;
-    margin: 2em auto 0 auto;
-
-    h1:first-child { margin-top: 0; }
-}
-
 // homepage
 .home-background-graphic {
     z-index: -100;
@@ -80,5 +66,5 @@ a:hover {
     right: 0;
     position: fixed;
     width: 90%;
-    opacity: 0.05;
+    opacity: 0.08;
 }

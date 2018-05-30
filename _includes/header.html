@@ -1,8 +1,17 @@
 <header class="header-outer-wrapper">
-    <div class="header-inner-wrapper">
+    <div class="container header-inner-wrapper">
         <div class="site-logo">
-                <img src="{{site.url}}/assets/header-logo.png"/>
+            <a href="{{site.url}}"><img src="{{site.url}}/assets/header-logo.png"/></a>
         </div>
-        {% include navigation.html %}
+        <nav class="navigation">
+            {% for page in site.data.navigation.pages %}
+                {% if page.new_window == true %}
+                    <a href="{{page.url}}" target="_blank">{{page.title}}</a>
+                {% else %}
+                    <a href="{{page.url}}">{{page.title}}</a>
+                {% endif %}
+            {% endfor %}
+        </nav>
     </div>
 </header>
+<div class="header-border-bottom"></div>
