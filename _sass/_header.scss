@@ -1,14 +1,11 @@
 .header-outer-wrapper {
     height: 8.5em;
-    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: $header-background-color;
 }
 
 .header-inner-wrapper {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,3 +38,21 @@
     background-color: $theme-primary-color;
 }
 
+@media (max-width: 576px) {
+    .header-outer-wrapper {
+        display: block;
+        height: auto;
+    }
+    .header-inner-wrapper {
+        display: block;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .site-logo {
+        margin: 0 auto 0 auto;
+    }
+    .navigation {
+        justify-content: space-around;
+        a { padding: 0; }
+    }
+ }
