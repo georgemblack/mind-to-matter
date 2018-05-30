@@ -1,10 +1,15 @@
-.tagline-large {
-    padding: 1em 0 1.5em 0;
+.bold-tagline {
     font-size: 3em;
     font-weight: $font-weight-bold;
     line-height: 100%;
 
-    span {
-        color: $theme-primary-color;
-    }
+    span { color: $theme-primary-color; }
+}
+
+.body-text {
+    max-width: 576px;
+}
+
+.faded-text {
+    color: $faded-text-color;
 }

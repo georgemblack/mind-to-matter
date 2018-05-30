@@ -4,20 +4,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid $theme-primary-color;
     background-color: $header-background-color;
 }
 
 .header-inner-wrapper {
     width: 100%;
-    max-width: $body-max-width;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .site-logo {
-    max-width: 9.5em;
+    max-width: 9em;
     img { width: 100%; }
+}
+
+.navigation {
+    font-size: 1.25em;
+    display: flex;
+    
+    a {
+        padding: 0 0 0 1.15em;
+        color: $nav-link-color;
+        font-weight: $font-weight-bold;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $nav-link-hover-color;
+    }
+}
+
+.header-border-bottom {
+    display: block;
+    height: 8px;
+    background-color: $theme-primary-color;
 }
 
