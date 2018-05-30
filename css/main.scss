@@ -68,3 +68,9 @@ a:hover {
     width: 90%;
     opacity: 0.08;
 }
+
+@media (max-width: 576px) {
+    .home-background-graphic {
+        width: 150%;
+    }
+}
