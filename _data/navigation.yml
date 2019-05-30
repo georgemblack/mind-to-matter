@@ -5,6 +5,3 @@ pages:
 - title: Team
   url: /team
   new_window: false
-- title: Progress
-  url: /progress
-  new_window: false
