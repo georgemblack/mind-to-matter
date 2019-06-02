@@ -2,6 +2,7 @@
 
 ### Jekyll ###
 _site/
+!_site/.gitkeep
 .sass-cache/
 .jekyll-metadata
 
