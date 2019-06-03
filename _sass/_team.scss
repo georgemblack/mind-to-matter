@@ -29,23 +29,3 @@
     margin: 0;
     padding: 0;
 }
-
-
-@media (max-width: 576px) {
-    .team-member-outer {
-        width: 8em;
-        height: 10em;
-        margin: 0 0.25em 0.5em 0.25em;
-        box-shadow: 3px 4px 10px 0px rgba(0,0,0,0.1);
-    }
-    .team-member-inner {
-        padding: 0.6em 0.35em 0.6em 0.35em;
-        img { max-width: 5em; }
-    }
-    .team-member-name {
-        font-size: 0.85em;
-    }
-    .team-member-title {
-        font-size: 0.85em;
-    }
-}
