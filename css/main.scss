@@ -69,6 +69,16 @@ a:hover {
     opacity: 0.08;
 }
 
+.no-gutters {
+margin-right:0;
+margin-left:0;
+> .col,
+> [class*="col-"] {
+padding-right:0;
+padding-left:0;
+}
+}
+
 @media (max-width: 576px) {
     .home-background-graphic {
         width: 150%;

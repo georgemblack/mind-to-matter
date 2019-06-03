@@ -1,5 +1,6 @@
 .team-member-outer {
     display: inline-block;
+    max-width:100%;
     width: 12em;
     height: 15em;
     margin: 0 0.5em 1em 0.5em;
@@ -14,6 +15,7 @@
 
     img {
         max-width: 8em;
+        max-width: 66%;
         border-radius: 100%;
     }
 }
@@ -28,23 +30,4 @@
 .team-member-title {
     margin: 0;
     padding: 0;
-}
-
-@media (max-width: 576px) {
-    .team-member-outer {
-        width: 8em;
-        height: 10em;
-        margin: 0 0.25em 0.5em 0.25em;
-        box-shadow: 3px 4px 10px 0px rgba(0,0,0,0.1);
-    }
-    .team-member-inner {
-        padding: 0.6em 0.35em 0.6em 0.35em;
-        img { max-width: 5em; }
-    }
-    .team-member-name {
-        font-size: 0.85em;
-    }
-    .team-member-title {
-        font-size: 0.85em;
-    }
 }
