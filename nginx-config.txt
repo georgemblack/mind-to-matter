@@ -1,0 +1,35 @@
+server {
+    listen [::]:443 ssl ipv6only=on;
+    listen 443 ssl;
+
+    ssl_certificate /etc/letsencrypt/live/zerobarrierlabs.com/fullchain.pem; 
+    ssl_certificate_key /etc/letsencrypt/live/zerobarrierlabs.com/privkey.pem; 
+
+	root /home/zerobarrier/public;
+	index index.html;
+
+	server_name zerobarrierlabs.com www.zerobarrierlabs.com;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+
+    include /etc/letsencrypt/options-ssl-nginx.conf; 
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; 
+}
+
+server {
+    if ($host = www.zerobarrierlabs.com) {
+        return 301 https://$host$request_uri;
+    } 
+
+    if ($host = zerobarrierlabs.com) {
+        return 301 https://$host$request_uri;
+    } 
+
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	server_name zerobarrierlabs.com www.zerobarrierlabs.com;
+    return 404;
+}
