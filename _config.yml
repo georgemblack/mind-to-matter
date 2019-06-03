@@ -2,7 +2,7 @@ name: 'Zero Barrier'
 description: 'Our mission is to reduce the barriers to mass production to zero, by establishing a metal 3D printing factory filled with our proprietary printers.'
 email: 'contact@zerobarrierlabs.com'
 author: 'Evan Wolfenden'
-url: "http://zerobarrierlabs.com"
+url: "https://zerobarrierlabs.com"
 permalink: /:year/:title/
 timezone: 'America/Chicago'
 strict_front_matter: true
